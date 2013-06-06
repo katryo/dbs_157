@@ -1,0 +1,204 @@
+
+\documentclass[submit,techreq]{ipsj}
+%\documentclass[submit,draft]{ipsj}
+
+
+\usepackage[dvips]{graphicx}
+\usepackage{latexsym}
+
+\def\Underline{\setbox0\hbox\bgroup\let\\\endUnderline}
+\def\endUnderline{\vphantom{y}\egroup\smash{\underline{\box0}}\\}
+\def\|{\verb|}
+
+\setcounter{巻数}{53}
+\setcounter{号数}{10}
+\setcounter{page}{1}
+
+\受付{2011}{11}{4}
+%\再受付{2011}{7}{16}   %省略可能
+%\再再受付{2011}{7}{20} %省略可能
+\採録{2011}{12}{1}
+
+\begin{document}
+
+
+\title{語の出現パターンと意味関係分析を用いた\\
+Webからのタスク検索}
+
+\etitle{Subtask search}
+
+\affiliate{IPSJ}{情報処理学会\\
+IPSJ, Chiyoda, Tokyo 101--0062, Japan}
+
+
+\paffiliate{KU}{京都大学\\
+Kyoto Uniersity}
+
+
+
+\author{加藤 龍}{Ryo Kato}{IKU}[r.kato@dl.kuis.kyoto-u.ac.jp]
+\author{大島 裕明}{Hiroaki Ohshima}{IPSJ}[ohshima@dl.kuis.kyoto-u.ac.jp]
+\author{山本 岳洋}{Takehiro Yamamoto}{IPSJ,KU}[yamamot@dl.kuis.kyoto-u.ac.jp]
+\author{田中 克己}{Katsumi Tanaka}{IPSJ,KU}[ktanaka@i.kyoto-u.ac.jp]
+\author{加藤 誠}{Makoto P. Kato}{IPSJ,KU}[kato@dl.kuis.kyoto-u.ac.jp]
+
+\begin{abstract}
+本研究では, クエリとしてタスクが与えられた際に, そのタスクを達成するために必要なサブタスク群をWebから発見する手法を提案する. 提案手法では，動詞の含意関係や逆意関係にもとづいたルールによりクエリの変換を行う. 変換したクエリでWeb検索を行う. 得られたページから, タスク特有の言語パターンを用いて，サブタスク候補となるフレーズを発見する. 
+\end{abstract}
+
+\begin{jkeyword}
+情報処理学会論文誌ジャーナル，\LaTeX，スタイルファイル，べからず集
+\end{jkeyword}
+
+\begin{eabstract}
+This document is a guide to prepare a draft for submitting to IPSJ
+Journal, and the final camera-ready manuscript of a paper to appear in
+IPSJ Journal, using {\LaTeX} and special style files.  Since this
+document itself is produced with the style files, it will help you to
+refer its source file which is distributed with the style files.
+\end{eabstract}
+
+\begin{ekeyword}
+IPSJ Journal, \LaTeX, style files, ``Dos and Dont's'' list
+\end{ekeyword}
+
+\maketitle
+
+%1
+\section{動機}
+
+Web検索
+
+Google
+目的を
+
+　誕生以来, Webには多様な資料が集積され続けている. 情報をどう走査, 発見し, 取捨選択するか, 様々な方向からのアプローチがなされている. 
+　現在, いくつもの検索エンジンが実用化され, Webを舞台に情報発見や集約を行っている. だが, Webにおける情報検索は, いまだ多くの問題を抱えている. 
+　そのうちの一つとして, 目的を達成する方法を
+
+　なにかを成し遂げたいが, どうすれば成功するかわからないとき, Web検索を使って実現方法を考える行為がよく行われている. たとえば「花粉症対策をする方法」をクエリに検索することで, 立体マスクをつける」や「アレロック錠剤を飲む」を発見することができる. だが, そうして発見できた「花粉対策をする方法」を採用すべきなのか, 簡単にはわからない. まだ発見できていない「花粉対策をする方法」のほうがよいかもしれないからだ.
+
+こうした状況では, ユーザーは「タスクを遂行するためにどんな方法があるか」をできるだけ多く発見するサブタスク検索を求める. 多様な答えが得られることで, 安心して各方法を比較したり, 自分にとって最適な方法を考えることができるようになる.
+
+サブタスク検索の例を説明する.たとえば「花粉症対策をする」というクエリを入力すると, 出力として
+
+
+\begin{itemize}
+\item \|立体マスクをつける|
+\item \|アレロック錠剤を飲む|
+\item \|医師の診断を受ける|
+\item \|植物に近寄らない|
+\end{itemize}
+
+
+といったように, 複数の異なった選択肢を網羅的に発見する.これがサブタスク検索の例である.
+
+このような, 網羅的に手法を探す検索は現在の一般的な検索エンジンでは困難である.
+「iPhoneのゲームを作る方法」でGoogle検索すると, iPhoneアプリの作り方講座まとめやcocos2dの紹介などのページはヒットする.しかしその検索結果はiPhoneのゲームを作る方法を網羅しているわけではない.「Titaniumを使う」や「CoreAnimationを使う」といった手法は「iPhoneのゲームを作る方法」での検索では容易に発見できない.
+
+%2
+\section{関連研究}
+
+\cite{yamatake}において, 広告を用いたクエリクラスタリングが試みられている. タスク実行のための, 複雑な検索の手順を研究したものとして{hassan}がある.
+
+
+%3
+\section{タスク関係の定義}
+
+%3.1
+\subsection{タスクの定義}
+
+「遂行すると, 目的の一部あるいは全部を達成したことになる行動」をタスクと定義する.
+
+目的を達成した状態をゴールと呼び, 目的の一部を達成した状態をサブゴールと呼ぶ.
+
+つまり, ゴールに至る行動がタスクといえる.
+
+
+%3.2
+\subsection{スーパータスクとサブタスクの定義}
+
+
+%3.3
+\section{タスク構造の概要}
+「目的を達成すること」は「目的を達成した状態になる」と等価であり, 言い換えられる.
+
+目的をゴールと呼ぶ.
+
+目的を達成する, つまり目的を達成している状態になる行動がタスクといえる.
+
+
+%3.4
+\subsection{ゴールの定義}
+状態が, 求める状態になっていること
+
+
+%4
+\section{Webページ発見の手法}
+
+%5
+\section{サブタスクタスク発見の手法}
+
+%6
+\section{評価}
+実験を行った.
+
+%6.1
+\subsection{実験の手法}
+ベースラインとして
+
+%6.2
+\subsection{実験の結果}
+
+%7
+\section{考察}
+
+
+%8
+\section{結論}
+
+
+
+
+\begin{thebibliography}{10}
+
+
+\bibitem{yamatake}
+The Widwom of Advertisers: Mining Subgoals via Query Clustering
+\urlj{http://research.microsoft.com/en-us/people/tesakai/cikm2012yamamoto.pdf}
+(2012.11.02).
+
+\bibitem{hassan}
+Task Tours: Helping Users Tackle Complex Search Tasks:
+Ahmed Hassan, Ryen W. White
+\urlj{http://research.microsoft.com/pubs/178868/HassanCIKM2012.pdf}
+
+
+
+
+\end{thebibliography}
+
+
+
+\begin{biography}
+\profile{m}{情報 太郎}{1970年生．1992年情報処理大学理学部情報科学科卒．
+1994年同大大学院修士課程了．同年情報処理学会入社．オンライン出版の研究
+に従事．電子情報通信学会，IEEE，ACM 各会員}
+%
+\profile{n}{処理 花子}{1960年生．1982年情報処理大学理学部情報科学科卒．
+1984年同大大学院修士課程了．1987年同博士課程了．理学博士．1987年情報処
+理大学助手．1992年架空大学助教授．1997年同大教授．オンライン出版の研究
+に従事．2010年情報処理記念賞受賞．電子情報通信学会，IEEE，IEEE-CS，ACM
+各会員}
+%
+\profile{s}{学会 次郎}{1950年生．1974年架空大学大学院修士課程了．
+1987年同博士課程了．工学博士．1977年架空大学助手．1992年情報処理大学助
+教授．1987年同大教授．2000年から情報処理学会顧問．オンライン出版の研究
+に従事．2010年情報処理記念賞受賞．情報処理学会理事．電子情報通信学会，
+IEEE，IEEE-CS，ACM 各会員}
+%
+\end{biography}
+
+
+
+\end{document}
