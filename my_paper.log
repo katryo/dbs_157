@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.1415926-p3.3-110825-2.4 (utf8.euc) (TeX Live 2012) (format=platex 2012.6.30)  6 JUN 2013 19:14
+This is e-pTeX, Version 3.1415926-p3.3-110825-2.4 (utf8.euc) (TeX Live 2012) (format=platex 2012.6.30)  10 JUN 2013 16:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -151,7 +151,6 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8.8711> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8.8711> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 45.
-LaTeX Font Info:    Calculating math sizes for size <8.8711> on input line 50.
 LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <8.5373> not available
 (Font)              Font shape `JT1/mc/m/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <8.5373> not available
@@ -160,7 +159,6 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/it' in size <8.5373> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `JY1/mc/bx/it' in size <8.5373> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 53.
-LaTeX Font Info:    Calculating math sizes for size <8.5373> on input line 58.
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <19.2207> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 61.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <19.2207> not available
@@ -197,21 +195,21 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <11.82813> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 64.
  (I search kanjifont definition file: . . )
 (I search font definition file: . . . . . . . )
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 86.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 88.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OT1+txsy on input line 86.
+LaTeX Font Info:    Try loading font information for OT1+txsy on input line 88.
 
-LaTeX Font Info:    No file OT1txsy.fd. on input line 86.
+LaTeX Font Info:    No file OT1txsy.fd. on input line 88.
 
 
 LaTeX Font Warning: Font shape `OT1/txsy/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 86.
+(Font)              using `OT1/cmr/m/n' instead on input line 88.
 
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 86.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 88.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) [1
@@ -219,33 +217,101 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9.61035> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 106.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9.61035> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 106.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 89.
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--169
+
+LaTeX Warning: Reference `fig:future_app' on page 2 undefined on input line 89.
+
+
+File: future_app.jpg Graphic file (type eps)
+<future_app.jpg>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8.13184> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 93.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8.13184> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 93.
+
+
+LaTeX Warning: Citation `yamatake' on page 2 undefined on input line 114.
+
+
+LaTeX Warning: Citation `hassan' on page 2 undefined on input line 114.
+
+
+LaTeX Warning: Citation `tamugi' on page 2 undefined on input line 114.
+
+
+LaTeX Warning: Reference `fig:action_goal' on page 2 undefined on input line 13
+1.
+
+
+LaTeX Warning: Reference `fig:action_goal' on page 2 undefined on input line 13
+1.
+
+
+LaTeX Warning: Reference `fig:sub_goal' on page 2 undefined on input line 131.
+
+File: action_goal.jpg Graphic file (type eps)
+<action_goal.jpg>
+
+LaTeX Warning: Reference `fig:sub_goal' on page 2 undefined on input line 140.
+
+File: sub_goal.jpg Graphic file (type eps)
+<sub_goal.jpg>
+File: many_sub_goals.jpg Graphic file (type eps)
+ <many_sub_goals.jpg> [2]
+File: action_task.jpg Graphic file (type eps)
+ <action_task.jpg>
+
+LaTeX Warning: Reference `fig:sub_goal' on page 3 undefined on input line 174.
+
+File: super_sub.jpg Graphic file (type eps)
+<super_sub.jpg>
+
+LaTeX Warning: Reference `fig:super_subl' on page 3 undefined on input line 183
+.
+
+File: super_sub_sub.jpg Graphic file (type eps)
+<super_sub_sub.jpg> [3]
+File: base_line1.jpg Graphic file (type eps)
+ <base_line1.jpg> [4]
+File: base_line3.jpg Graphic file (type eps)
+ <base_line3.jpg>
+LaTeX Font Info:    Calculating math sizes for size <8.8711> on input line 342.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--349
 \OT1/cmr/m/n/8.8711 us/people/tesakai/cikm2012yamamoto.pdf$\OMS/cmsy/m/n/8.8711
  i$
  []
 
 
-Overfull \hbox (49.08026pt too wide) in paragraph at lines 171--174
+Overfull \hbox (49.08026pt too wide) in paragraph at lines 351--354
 \OMS/cmsy/m/n/8.8711 h$\OT1/cmr/m/n/8.8711 http://research.microsoft.com/pubs/1
 78868/HassanCIKM2012.pdf$\OMS/cmsy/m/n/8.8711 i$ 
  []
 
-[2] (./my_paper.aux)
+[5
+
+] (./my_paper.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 1650 strings out of 494059
- 22841 string characters out of 3156205
- 77388 words of memory out of 3000000
- 5090 multiletter control sequences out of 15000+200000
- 49481 words of font info for 216 fonts, out of 3000000 for 9000
+ 1670 strings out of 494059
+ 23089 string characters out of 3156205
+ 78388 words of memory out of 3000000
+ 5099 multiletter control sequences out of 15000+200000
+ 46106 words of font info for 201 fonts, out of 3000000 for 9000
  745 hyphenation exceptions out of 8191
- 36i,10n,23p,496b,480s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,11n,25p,490b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on my_paper.dvi (2 pages, 15688 bytes).
+Output written on my_paper.dvi (5 pages, 28816 bytes).
