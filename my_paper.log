@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.1415926-p3.3-110825-2.4 (utf8.euc) (TeX Live 2012) (format=platex 2012.6.30)  10 JUN 2013 20:13
+This is e-pTeX, Version 3.1415926-p3.3-110825-2.4 (utf8.euc) (TeX Live 2012) (format=platex 2012.6.30)  10 JUN 2013 22:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -128,11 +128,7 @@ Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-(./my_paper.aux
-
-LaTeX Warning: Label `fig:single' multiply defined.
-
-)
+(./my_paper.aux)
 \openout1 = `my_paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -197,16 +193,18 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <11.82813> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <11.82813> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 64.
- (I search kanjifont definition file: . . ) (I search font definition file: .
-. . . . . . )
+ (I search kanjifont definition file: . . )
+(I search font definition file: . . . . . . . )
 LaTeX Font Info:    Try loading font information for OMS+txsy on input line 88.
 
- (/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omstxsy.fd
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Try loading font information for OT1+txsy on input line 88.
 
 LaTeX Font Info:    No file OT1txsy.fd. on input line 88.
+
 
 LaTeX Font Warning: Font shape `OT1/txsy/m/n' undefined
 (Font)              using `OT1/cmr/m/n' instead on input line 88.
@@ -239,45 +237,44 @@ File: action_task.jpg Graphic file (type eps)
 
 <action_task.jpg>
 File: super_task.jpg Graphic file (type eps)
- <super_task.jpg>
+ <super_task.jpg> [3]
 File: super_sub.jpg Graphic file (type eps)
- <super_sub.jpg> [3]
+ <super_sub.jpg>
 File: super_sub_sub.jpg Graphic file (type eps)
  <super_sub_sub.jpg>
 [4]
+File: goal_can_be_task.jpg Graphic file (type eps)
+ <goal_can_be_task.jpg> [5]
 File: base_line1.jpg Graphic file (type eps)
  <base_line1.jpg>
 File: base_line3.jpg Graphic file (type eps)
- <base_line3.jpg> [5]
-LaTeX Font Info:    Calculating math sizes for size <8.8711> on input line 444.
+ <base_line3.jpg> [6]
+LaTeX Font Info:    Calculating math sizes for size <8.8711> on input line 494.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--451
+Underfull \hbox (badness 10000) in paragraph at lines 498--501
 \OT1/cmr/m/n/8.8711 us/people/tesakai/cikm2012yamamoto.pdf$\OMS/cmsy/m/n/8.8711
  i$
  []
 
 
-Overfull \hbox (49.08026pt too wide) in paragraph at lines 453--456
+Overfull \hbox (49.08026pt too wide) in paragraph at lines 503--506
 \OMS/cmsy/m/n/8.8711 h$\OT1/cmr/m/n/8.8711 http://research.microsoft.com/pubs/1
 78868/HassanCIKM2012.pdf$\OMS/cmsy/m/n/8.8711 i$ 
  []
 
-[6] (./my_paper.aux)
+[7] (./my_paper.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 1677 strings out of 494059
- 23221 string characters out of 3156205
- 82388 words of memory out of 3000000
- 5105 multiletter control sequences out of 15000+200000
- 46106 words of font info for 201 fonts, out of 3000000 for 9000
+ 1685 strings out of 494059
+ 23383 string characters out of 3156205
+ 79388 words of memory out of 3000000
+ 5112 multiletter control sequences out of 15000+200000
+ 46387 words of font info for 203 fonts, out of 3000000 for 9000
  745 hyphenation exceptions out of 8191
- 36i,10n,21p,691b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,11n,25p,703b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on my_paper.dvi (6 pages, 40672 bytes).
+Output written on my_paper.dvi (7 pages, 48184 bytes).
