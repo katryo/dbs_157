@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.1415926-p3.3-110825-2.4 (utf8.euc) (TeX Live 2012) (format=platex 2012.6.30)  10 JUN 2013 22:22
+This is e-pTeX, Version 3.1415926-p3.3-110825-2.4 (utf8.euc) (TeX Live 2012) (format=platex 2012.6.30)  11 JUN 2013 23:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -195,21 +195,21 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <11.82813> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 64.
  (I search kanjifont definition file: . . )
 (I search font definition file: . . . . . . . )
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 88.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 77.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OT1+txsy on input line 88.
+LaTeX Font Info:    Try loading font information for OT1+txsy on input line 77.
 
-LaTeX Font Info:    No file OT1txsy.fd. on input line 88.
+LaTeX Font Info:    No file OT1txsy.fd. on input line 77.
 
 
 LaTeX Font Warning: Font shape `OT1/txsy/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 88.
+(Font)              using `OT1/cmr/m/n' instead on input line 77.
 
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 88.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 77.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) [1
@@ -227,8 +227,9 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8.13184> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8.13184> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 93.
+ [2]
 File: action_goal.jpg Graphic file (type eps)
- <action_goal.jpg> [2]
+ <action_goal.jpg>
 File: sub_goal.jpg Graphic file (type eps)
  <sub_goal.jpg>
 File: many_sub_goals.jpg Graphic file (type eps)
@@ -245,36 +246,44 @@ File: super_sub_sub.jpg Graphic file (type eps)
 [4]
 File: goal_can_be_task.jpg Graphic file (type eps)
  <goal_can_be_task.jpg> [5]
+Overfull \hbox (27.80054pt too wide) in paragraph at lines 393--393
+[][]\OT1/cmr/m/n/8.13184 https://affiliate.amazon.co.jp/gp/advertising/api/deta
+il/main.html| 
+ []
+
+[6]
 File: base_line1.jpg Graphic file (type eps)
  <base_line1.jpg>
 File: base_line3.jpg Graphic file (type eps)
- <base_line3.jpg> [6]
-LaTeX Font Info:    Calculating math sizes for size <8.8711> on input line 494.
+ <base_line3.jpg> [7]
+LaTeX Font Info:    Calculating math sizes for size <8.8711> on input line 575.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--501
+Underfull \hbox (badness 10000) in paragraph at lines 579--582
 \OT1/cmr/m/n/8.8711 us/people/tesakai/cikm2012yamamoto.pdf$\OMS/cmsy/m/n/8.8711
  i$
  []
 
-
-Overfull \hbox (49.08026pt too wide) in paragraph at lines 503--506
+[8]
+Overfull \hbox (49.08026pt too wide) in paragraph at lines 584--587
 \OMS/cmsy/m/n/8.8711 h$\OT1/cmr/m/n/8.8711 http://research.microsoft.com/pubs/1
 78868/HassanCIKM2012.pdf$\OMS/cmsy/m/n/8.8711 i$ 
  []
 
-[7] (./my_paper.aux)
+[9
+
+] (./my_paper.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 1685 strings out of 494059
- 23383 string characters out of 3156205
- 79388 words of memory out of 3000000
- 5112 multiletter control sequences out of 15000+200000
+ 1687 strings out of 494059
+ 23412 string characters out of 3156205
+ 82388 words of memory out of 3000000
+ 5114 multiletter control sequences out of 15000+200000
  46387 words of font info for 203 fonts, out of 3000000 for 9000
  745 hyphenation exceptions out of 8191
- 36i,11n,25p,703b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,10n,21p,773b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on my_paper.dvi (7 pages, 48184 bytes).
+Output written on my_paper.dvi (9 pages, 63236 bytes).
