@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.1415926-p3.3-110825-2.4 (utf8.euc) (TeX Live 2012) (format=platex 2012.6.30)  11 JUN 2013 23:54
+This is e-pTeX, Version 3.1415926-p3.3-110825-2.4 (utf8.euc) (TeX Live 2012) (format=platex 2012.6.30)  18 JUN 2013 21:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -227,6 +227,10 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8.13184> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8.13184> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 93.
+LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <9.61035> not available
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 113.
+LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <9.61035> not available
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 113.
  [2]
 File: action_goal.jpg Graphic file (type eps)
  <action_goal.jpg>
@@ -245,45 +249,34 @@ File: super_sub_sub.jpg Graphic file (type eps)
  <super_sub_sub.jpg>
 [4]
 File: goal_can_be_task.jpg Graphic file (type eps)
- <goal_can_be_task.jpg> [5]
-Overfull \hbox (27.80054pt too wide) in paragraph at lines 393--393
-[][]\OT1/cmr/m/n/8.13184 https://affiliate.amazon.co.jp/gp/advertising/api/deta
-il/main.html| 
- []
+ <goal_can_be_task.jpg>
 
-[6]
-File: base_line1.jpg Graphic file (type eps)
- <base_line1.jpg>
-File: base_line3.jpg Graphic file (type eps)
- <base_line3.jpg> [7]
-LaTeX Font Info:    Calculating math sizes for size <8.8711> on input line 575.
+LaTeX Warning: Citation `yamatake' on page 5 undefined on input line 362.
+
+[5] [6] [7] (./my_paper.bbl
+LaTeX Font Info:    Calculating math sizes for size <8.8711> on input line 1.
+LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <8.8711> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 5.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--582
-\OT1/cmr/m/n/8.8711 us/people/tesakai/cikm2012yamamoto.pdf$\OMS/cmsy/m/n/8.8711
- i$
- []
+LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
+(Font)              using `JY1/gt/m/n' instead on input line 5.
 
-[8]
-Overfull \hbox (49.08026pt too wide) in paragraph at lines 584--587
-\OMS/cmsy/m/n/8.8711 h$\OT1/cmr/m/n/8.8711 http://research.microsoft.com/pubs/1
-78868/HassanCIKM2012.pdf$\OMS/cmsy/m/n/8.8711 i$ 
- []
-
-[9
-
-] (./my_paper.aux)
+) [8] (./my_paper.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 1687 strings out of 494059
- 23412 string characters out of 3156205
+ 1702 strings out of 494059
+ 23674 string characters out of 3156205
  82388 words of memory out of 3000000
- 5114 multiletter control sequences out of 15000+200000
- 46387 words of font info for 203 fonts, out of 3000000 for 9000
+ 5127 multiletter control sequences out of 15000+200000
+ 47078 words of font info for 205 fonts, out of 3000000 for 9000
  745 hyphenation exceptions out of 8191
- 36i,10n,21p,773b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,11n,21p,773b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on my_paper.dvi (9 pages, 63236 bytes).
+Output written on my_paper.dvi (8 pages, 64236 bytes).

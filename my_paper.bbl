@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{yamamoto2012wisdom}
+Yamamoto, T., Sakai, T., Iwata, M., Yu, C., Wen, J.-R. and Tanaka, K.: The
+  wisdom of advertisers: mining subgoals via query clustering, {\em Proceedings
+  of the 21st ACM international conference on Information and knowledge
+  management}, ACM, pp.\ 505--514 (2012).
+
+\bibitem{hassan2012task}
+Hassan, A. and White, R.~W.: Task tours: helping users tackle complex search
+  tasks, {\em Proceedings of the 21st ACM international conference on
+  Information and knowledge management}, ACM, pp.\ 1885--1889 (2012).
+
+\bibitem{yumotoHowTo}
+湯本高行\：手順の対応関係に基づくハウツー情報の階層化，第5回データ工学と情報マネジメントに関するフォーラム
+  (2013).
+
+\bibitem{BroderAdQueryExpansion}
+Broder, A., Fontoura, M., Josifovski, V. and Riedel, L.: A semantic approach to
+  contextual advertising, {\em Proc. of SIGIR}, pp.\ 559--566 (2007).
+
+\bibitem{RichardsonEstimatingCTR}
+Richardson, M., Dominowska, E. and Ragno, R.: Predicting clicks: estimating the
+  click-through rate for new ads, {\em Proc. of WWW}, pp.\ 521--530 (2007).
+
+\bibitem{jansen2005examining}
+Jansen, B.~J. and Resnick, M.: Examining Searcher Perceptions of and
+  Interactions with Sponsored Results, {\em Workshop on Sponsored Search
+  Auctions} (2005).
+
+\bibitem{DanescuNiculescuMizilInterplayAd}
+Danescu-Niculescu-Mizil, C., Broder, A.~Z., Gabrilovich, E., Josifovski, V. and
+  Pang, B.: Competing for users' attention: on the interplay between organic
+  and sponsored search results, {\em Proc. of WWW}, pp.\ 291--300 (2010).
+
+\end{thebibliography}
