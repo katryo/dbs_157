@@ -1,0 +1,46 @@
+\begin{thebibliography}{10}
+
+\bibitem{yamamoto2012wisdom}
+Yamamoto, T., Sakai, T., Iwata, M., Yu, C., Wen, J.-R. and Tanaka, K.: The
+  wisdom of advertisers: mining subgoals via query clustering, {\em Proc. of
+  CIKM}, pp.\ 505--514 (2012).
+
+\bibitem{hassan2012task}
+Hassan, A. and White, R.~W.: Task tours: helping users tackle complex search
+  tasks, {\em Proc. of CIKM}, pp.\ 1885--1889 (2012).
+
+\bibitem{yumotoHowTo}
+湯本高行\：手順の対応関係に基づくハウツー情報の階層化，第5回データ工学と情報マネジメントに関するフォーラム
+  (2013).
+
+\bibitem{BroderAdQueryExpansion}
+Broder, A., Fontoura, M., Josifovski, V. and Riedel, L.: A semantic approach to
+  contextual advertising, {\em Proc. of SIGIR}, pp.\ 559--566 (2007).
+
+\bibitem{RichardsonEstimatingCTR}
+Richardson, M., Dominowska, E. and Ragno, R.: Predicting clicks: estimating the
+  click-through rate for new ads, {\em Proc. of WWW}, pp.\ 521--530 (2007).
+
+\bibitem{jansen2005examining}
+Jansen, B.~J. and Resnick, M.: Examining Searcher Perceptions of and
+  Interactions with Sponsored Results, {\em Workshop on Sponsored Search
+  Auctions} (2005).
+
+\bibitem{DanescuNiculescuMizilInterplayAd}
+Danescu-Niculescu-Mizil, C., Broder, A.~Z., Gabrilovich, E., Josifovski, V. and
+  Pang, B.: Competing for users' attention: on the interplay between organic
+  and sponsored search results, {\em Proc. of WWW}, pp.\ 291--300 (2010).
+
+\bibitem{tamugiDEIM}
+田麥節治，是津耕司，木俵豊，田中克己\：サービス情報検索と適格性に基づくランキング，第156回データベースシステム研究発表会
+  (2012).
+
+\bibitem{tamugiDBS}
+田麥節治，赤星祐平，是津耕司，木俵豊，田中克己\：Webサービスを対象とした検索意図推定とその応用，第4回データ工学と情報マネジメントに関するフォーラム（DEIM2012）
+  (2012).
+
+\bibitem{tamugiMS}
+田麥節治\：サービス適格性と語彙分析に基づくサービス情報検索，京都大学大学院
+  情報学研究科 修士論文 (2013).
+
+\end{thebibliography}
